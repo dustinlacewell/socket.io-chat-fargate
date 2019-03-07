@@ -114,7 +114,7 @@ io.on('connection', function(socket) {
       {
         id: 'general',
         name: 'General AWS',
-        preview: 'General AWS discussion',
+        preview: 'GENERAL AWS DISCUSSION',
         image: '/images/aws.jpg',
         status: 'none',
         onlineCount: 0
@@ -122,15 +122,7 @@ io.on('connection', function(socket) {
       {
         id: 'fargate',
         name: 'AWS Fargate',
-        preview: 'Containers without instances',
-        image: '/images/fargate.png',
-        status: 'none',
-        onlineCount: 0
-      },
-      {
-        id: 'offtopic',
-        name: 'Offtopic',
-        preview: 'No topic!',
+        preview: 'CONTAINERS WITHOUT INSTANCES',
         image: '/images/fargate.png',
         status: 'none',
         onlineCount: 0
@@ -138,7 +130,7 @@ io.on('connection', function(socket) {
       {
         id: 'eks',
         name: 'AWS EKS',
-        preview: 'AWS managed Kubernetes masters',
+        preview: 'AWS MANAGED KUBERNETES MASTERS',
         image: '/images/eks.png',
         status: 'none',
         onlineCount: 0
@@ -146,7 +138,7 @@ io.on('connection', function(socket) {
       {
         id: 'ecs',
         name: 'AWS ECS',
-        preview: 'AWS container orchestrator',
+        preview: 'AWS CONTAINER ORCHESTRATOR',
         image: '/images/ecs.png',
         status: 'none',
         onlineCount: 0
