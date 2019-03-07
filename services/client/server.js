@@ -128,6 +128,14 @@ io.on('connection', function(socket) {
         onlineCount: 0
       },
       {
+        id: 'offtopic',
+        name: 'Offtopic',
+        preview: 'No topic!',
+        image: '/images/fargate.png',
+        status: 'none',
+        onlineCount: 0
+      },
+      {
         id: 'eks',
         name: 'AWS EKS',
         preview: 'AWS managed Kubernetes masters',
